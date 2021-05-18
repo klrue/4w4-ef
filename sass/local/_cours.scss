@@ -5,6 +5,8 @@
     justify-content: space-around;
     margin-top: 50px;
 }
+
+
 a:visited
 {
     color:black;
@@ -30,6 +32,19 @@ a{
     color:white;
 }
 
+//ÉTAPE 6
+@media screen and (max-width: 600px) {
+    .session p{
+visibility: hidden;
+    }
+    .session article
+    {
+        transform: rotate(-90deg);
+       
+    }
+  
+  }
+
 //COURS OPTIONNELS
 
 
@@ -53,6 +68,16 @@ a{
     border-style: dashed;
 }
 .session > article:nth-child(6){
+    background-color: grey;
+    border: 2px solid black ;
+    border-style: dashed;
+}
+.session > article:nth-child(48){
+    background-color: grey;
+    border: 2px solid black ;
+    border-style: dashed;
+}
+.session > article:nth-child(52){
     background-color: grey;
     border: 2px solid black ;
     border-style: dashed;

@@ -1526,13 +1526,13 @@ La barre du millieu
 }
 
 .page-header .page-title, .page-header .entry-title, .entry-header .page-title, .entry-header .entry-title {
-  font-size: 4rem;
-  color: #af2929;
+  font-size: 5rem;
+  color: #4169e1;
   margin-bottom: 0;
 }
 
 .page-header .archive-description, .entry-header .archive-description {
-  font-size: 1rem;
+  font-size: 2rem;
   color: #6b767a;
 }
 
@@ -1559,6 +1559,26 @@ La barre du millieu
 .site-footer .widget_categories ul {
   list-style-type: none;
   margin: 0 0 1.5em 0em;
+}
+
+@media screen and (max-width: 600px) {
+  .site-footer {
+    background-color: #4169e1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .site-footer .ligne-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .site-footer .widget_categories ul {
+    list-style-type: none;
+    margin: 0 0 1.5em 0em;
+  }
 }
 
 /* local formulaire
@@ -1607,6 +1627,15 @@ a {
   color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .session p {
+    visibility: hidden;
+  }
+  .session article {
+    transform: rotate(-90deg);
+  }
+}
+
 .session > article:nth-child(50) {
   background-color: grey;
   border: 2px solid black;
@@ -1626,6 +1655,18 @@ a {
 }
 
 .session > article:nth-child(6) {
+  background-color: grey;
+  border: 2px solid black;
+  border-style: dashed;
+}
+
+.session > article:nth-child(48) {
+  background-color: grey;
+  border: 2px solid black;
+  border-style: dashed;
+}
+
+.session > article:nth-child(52) {
   background-color: grey;
   border: 2px solid black;
   border-style: dashed;
