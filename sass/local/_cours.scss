@@ -32,6 +32,13 @@ a{
     color:white;
 }
 
+.ligne
+{
+    display: inline-block;
+    background-color: saddlebrown;
+
+}
+
 //ÉTAPE 6
 @media screen and (max-width: 600px) {
     .grille p{

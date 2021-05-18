@@ -1627,6 +1627,11 @@ a {
   color: white;
 }
 
+.ligne {
+  display: inline-block;
+  background-color: saddlebrown;
+}
+
 @media screen and (max-width: 600px) {
   .grille p {
     visibility: hidden;

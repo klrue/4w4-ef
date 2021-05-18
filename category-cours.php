@@ -33,15 +33,20 @@ get_header();
                 
                 convertirTableau($tPropriété);
  
-                $precedent = "XXXXXX";
+                
  
                 get_template_part( 'template-parts/content', 'cours-article' );
+				
  
             endwhile;?>
+		
+
  
             </section>
  
         <?php endif; ?>
+
+
         
  
     </main>
@@ -61,3 +66,12 @@ function convertirTableau(&$tPropriété)
     $tPropriété['session'] = substr($tPropriété['titre'], 4,1);
     $tPropriété['typeCours'] = get_field('type_de_cours');
 }
+
+/*
+
+	<?php if (in_array($tPropriété['typeCours'], ['Web']) ) : 
+				return class="ligne";
+				else
+				return class="grille";
+				?> 
+*/

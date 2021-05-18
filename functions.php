@@ -262,7 +262,7 @@ add_action('pre_get_posts','extraire_cours_front_page');
 //PERSO MODIFICATIONS -------------------------------------------------------
 
 
-//fonction pour que la session s'affiche en tant que (titre) des cours
+//fonction pour que la session 
 function extraire_article($query){
 	if ($query->is_category('cours'))
 	{

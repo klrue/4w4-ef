@@ -67,6 +67,7 @@ get_header();
 			<button id='bout-rapide'>Créer une nouvelle</button>
 		</section>
 
+	
 
 		<section class="nouvelles">
 			<!-- button id="bout_nouvelles">Afficher les 3 dernières nouvelles</button -->
