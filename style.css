@@ -1589,6 +1589,7 @@ a:visited {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 .session article {
@@ -1604,5 +1605,29 @@ a {
   margin: 20px;
   background-color: #4169e1;
   color: white;
+}
+
+.session > article:nth-child(50) {
+  background-color: grey;
+  border: 2px solid black;
+  border-style: dashed;
+}
+
+.session > article:nth-child(54) {
+  background-color: grey;
+  border: 2px solid black;
+  border-style: dashed;
+}
+
+.session > article:nth-child(46) {
+  background-color: grey;
+  border: 2px solid black;
+  border-style: dashed;
+}
+
+.session > article:nth-child(6) {
+  background-color: grey;
+  border: 2px solid black;
+  border-style: dashed;
 }
 /*# sourceMappingURL=style.css.map */
