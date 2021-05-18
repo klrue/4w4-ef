@@ -24,7 +24,7 @@ get_header();
                 ?>  
             
             </header><!-- .page-header -->
-            <section class="session">
+            <section class="grille">
             <?php
             /* Start the Loop */
  

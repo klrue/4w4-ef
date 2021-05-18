@@ -1,4 +1,4 @@
-.session
+.grille
 {
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +17,7 @@ a{
 }
 
 //style pour les articles cours 
-.session article{
+.grille article{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,10 +34,10 @@ a{
 
 //ÉTAPE 6
 @media screen and (max-width: 600px) {
-    .session p{
+    .grille p{
 visibility: hidden;
     }
-    .session article
+    .grille article
     {
         transform: rotate(-90deg);
        
@@ -48,36 +48,36 @@ visibility: hidden;
 //COURS OPTIONNELS
 
 
-.session > article:nth-child(50)
+.grille > article:nth-child(50)
 {
     background-color: grey;
     border: 2px solid black ;
     border-style: dashed;
 }
 
-.session > article:nth-child(54)
+.grille > article:nth-child(54)
 {
     background-color: grey;
     border: 2px solid black ;
     border-style: dashed;
 }
 
-.session > article:nth-child(46){
+.grille > article:nth-child(46){
     background-color: grey;
     border: 2px solid black ;
     border-style: dashed;
 }
-.session > article:nth-child(6){
+.grille > article:nth-child(6){
     background-color: grey;
     border: 2px solid black ;
     border-style: dashed;
 }
-.session > article:nth-child(48){
+.grille > article:nth-child(48){
     background-color: grey;
     border: 2px solid black ;
     border-style: dashed;
 }
-.session > article:nth-child(52){
+.grille > article:nth-child(52){
     background-color: grey;
     border: 2px solid black ;
     border-style: dashed;
