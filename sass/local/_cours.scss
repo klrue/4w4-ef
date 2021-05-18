@@ -1,0 +1,31 @@
+.session
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+a:visited
+{
+    color:black;
+}
+a{
+    color: white;
+}
+
+//style pour les articles cours 
+.session article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border:2px solid black;
+    width:200px;
+    height:200px;
+    margin: 20px;
+    background-color: #4169e1;
+    color:white;
+}
+
