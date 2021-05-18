@@ -1599,8 +1599,8 @@ a {
   align-items: center;
   align-content: center;
   border: 2px solid black;
-  width: 200px;
-  height: 200px;
+  width: 20vw;
+  height: 20vh;
   margin: 20px;
   background-color: #4169e1;
   color: white;
